@@ -13,11 +13,11 @@ const page = () => {
         {/* logo, links, button go here */}
         <div className='flex items-center gap-6'>
           <button className='bg-indigo-500 rounded-lg px-4 py-2 text-white'> My App</button>
-          <div className='hidden sm:flex gap-6 text-gray-400 hover:text-white'>
-            <Link href="/">Home</Link>
-            <Link href='/'>About</Link>
-            <Link href="/">Blog</Link>
-            <Link href="/">Contact</Link>
+          <div className='hidden sm:flex gap-6 text-gray-400'>
+            <Link className='hover:text-white' href="/">Home</Link>
+            <Link className='hover:text-white' href='/'>About</Link>
+            <Link className='hover:text-white'  href="/">Blog</Link>
+            <Link className='hover:text-white' href="/">Contact</Link>
           </div>
         </div>
         <button className='hidden sm:block bg-indigo-500 text-white px-4 py-3 rounded-lg '>Sign Up</button>
